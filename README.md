@@ -13,18 +13,16 @@ Card Quest의 메뉴, 카드, 장비, 상태 효과, 훈련 대사, 스토리 �
 
 카드·장비·전투 상태와 다양한 메뉴·호버·스토리 UI에 한국어를 적용합니다. 번역 문맥과 용어를 점검하고 반복 선택 시 영어 전환·카드 미리보기 깜박임 등을 개선했습니다. 한글 폰트는 게임에서 사용하며 별도 Windows 폰트 설치는 필요하지 않습니다.
 
-자동 검증을 통과했고 기본 실행과 일부 화면을 확인했습니다. **전체 콘텐츠의 실게임 검증은 미완료**이며 v1.0.0 패키지 자체의 신규 실행 시험은 별도로 수행하지 않았습니다.
-
 ## 다운로드·설치
 
 공개 후 [Releases](https://github.com/DrownedRaitt/card-quest-korean-patch/releases)에서 `CardQuest-Korean-Patch-v1.0.0.zip`을 받습니다. `SHA256SUMS.txt`로 내려받은 파일의 체크섬을 확인할 수 있습니다.
 
 1. 게임을 종료합니다.
 2. Steam 라이브러리 → Card Quest 우클릭 → **관리 → 로컬 파일 탐색**.
-3. ZIP 안의 모든 파일·폴더를 **`Card Quest.exe` 옆에 바로** 풉니다. ZIP 이름의 하위 폴더는 만들지 않습니다.
+3. ZIP 안의 모든 파일·폴더를 **`Card Quest.exe` 옆에 바로** 풉니다. 같은 이름의 하위폴더를 만들어서 그 안에 풀면 안됩니다.
 4. Steam에서 게임을 실행하고 한국어 메뉴·글자 표시를 확인합니다.
 
-`winhttp.dll`, `doorstop_config.ini`, `BepInEx/`가 게임 폴더 바로 아래에 있어야 합니다. 처음 설치한다면 별도 BepInEx 설치는 필요하지 않습니다. 상세 구조와 제거 방법은 배포 ZIP의 `INSTALL_KO.md`에 있습니다.
+`winhttp.dll`, `doorstop_config.ini`, `BepInEx/`가 게임 폴더 바로 안에 있어야 합니다. 처음 설치한다면 별도 BepInEx 설치는 필요하지 않습니다. 상세 구조와 제거 방법은 배포 ZIP의 `INSTALL_KO.md`에 있습니다.
 
 ## RC2 업데이트·기존 모드 사용자
 
