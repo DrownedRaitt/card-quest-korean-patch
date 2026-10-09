@@ -37,6 +37,7 @@ BepInEx/plugins/ 폴더 안의 기존 CardQuestKoreanPoC 폴더를 삭제합니�
 기존 RC2 사용자는 BepInEx를 다시 설치할 필요가 없습니다.
 
 방법 2. 게임을 완전히 재설치
+
 폴더를 직접 교체하는 과정이 어렵다면 게임을 새로 설치해도 됩니다.
 Steam에서 Card Quest를 제거합니다.
 기존 Card Quest 설치 폴더가 남아 있다면 해당 폴더도 삭제합니다.
