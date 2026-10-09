@@ -22,7 +22,7 @@ Card Quest의 메뉴, 카드, 장비, 상태 효과, 훈련 대사, 스토리 �
 3. ZIP 안의 모든 파일·폴더를 **`Card Quest.exe` 옆에 바로** 풉니다. 같은 이름의 하위폴더를 만들어서 그 안에 풀면 안됩니다.
 4. Steam에서 게임을 실행하고 한국어 메뉴·글자 표시를 확인합니다.
 
-`winhttp.dll`, `doorstop_config.ini`, `BepInEx/`가 게임 폴더 바로 안에 있어야 합니다. 처음 설치한다면 별도 BepInEx 설치는 필요하지 않습니다. 상세 구조와 제거 방법은 배포 ZIP의 `INSTALL_KO.md`에 있습니다.
+`winhttp.dll`, `doorstop_config.ini`, `BepInEx/`가 게임 폴더 바로 안에 있어야 합니다. 상세 구조와 제거 방법은 배포 ZIP의 `INSTALL_KO.md`에 있습니다.
 
 ## 구버전 한글패치 사용자
 
@@ -44,6 +44,7 @@ Steam에서 Card Quest를 제거합니다.
 Steam에서 Card Quest를 다시 설치합니다.
 최신 한글패치 ZIP의 모든 내용을 Card Quest.exe가 있는 폴더에 압축 해제합니다.
 게임을 실행합니다.
+
 ※ 게임을 삭제해도 설치 폴더 외부에 저장된 세이브는 일반적으로 유지됩니다. 다만 안전을 위해 재설치 전 세이브를 백업하는 것을 권장합니다.
 
 ## 제거
