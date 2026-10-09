@@ -24,15 +24,30 @@ Card Quest의 메뉴, 카드, 장비, 상태 효과, 훈련 대사, 스토리 �
 
 `winhttp.dll`, `doorstop_config.ini`, `BepInEx/`가 게임 폴더 바로 안에 있어야 합니다. 처음 설치한다면 별도 BepInEx 설치는 필요하지 않습니다. 상세 구조와 제거 방법은 배포 ZIP의 `INSTALL_KO.md`에 있습니다.
 
-## RC2 업데이트·기존 모드 사용자
+## 구버전 한글패치 사용자
 
-게임을 종료하고 `BepInEx/plugins/CardQuestKoreanPoC/`만 제거한 뒤 새 ZIP의 같은 폴더로 교체합니다. 백업 DLL은 `plugins/` 밖에 보관하세요. 안내 문서와 라이선스 고지도 새것으로 갱신합니다.
+방법 1. 한글패치만 업데이트
 
-RC2의 BepInEx·Doorstop·폰트는 이번 패키지와 동일합니다. 기존 로더·다른 모드·설정을 덮어쓰거나 제거하지 않습니다. 다른 BepInEx 버전을 쓰면 먼저 [공식 설치 안내](https://docs.bepinex.dev/articles/user_guide/installation/index.html)와 해당 모드의 요구 버전을 확인하세요. 다른 모드 조합은 별도 검증하지 않았습니다.
+게임을 재설치하지 않고 한글패치만 교체하는 방법입니다.
+게임을 완전히 종료합니다.
+Steam에서 Card Quest를 우클릭하고 관리 → 로컬 파일 탐색을 선택합니다.
+BepInEx/plugins/ 폴더 안의 기존 CardQuestKoreanPoC 폴더를 삭제합니다.
+새 한글패치 ZIP 안의 BepInEx/plugins/CardQuestKoreanPoC 폴더를 같은 위치에 복사합니다.
+게임을 실행합니다.
+기존 RC2 사용자는 BepInEx를 다시 설치할 필요가 없습니다.
+
+방법 2. 게임을 완전히 재설치
+폴더를 직접 교체하는 과정이 어렵다면 게임을 새로 설치해도 됩니다.
+Steam에서 Card Quest를 제거합니다.
+기존 Card Quest 설치 폴더가 남아 있다면 해당 폴더도 삭제합니다.
+Steam에서 Card Quest를 다시 설치합니다.
+최신 한글패치 ZIP의 모든 내용을 Card Quest.exe가 있는 폴더에 압축 해제합니다.
+게임을 실행합니다.
+※ 게임을 삭제해도 설치 폴더 외부에 저장된 세이브는 일반적으로 유지됩니다. 다만 안전을 위해 재설치 전 세이브를 백업하는 것을 권장합니다.
 
 ## 제거
 
-한국어 패치만 제거하려면 게임 종료 후 `BepInEx/plugins/CardQuestKoreanPoC/`만 삭제합니다. 다른 모드가 있다면 BepInEx 전체를 삭제하지 마세요. 전체 제거는 이 통합판만 설치했음을 확인한 경우에만 `INSTALL_KO.md`의 목록을 따릅니다. 순정 게임·세이브·게임 설정은 삭제하거나 초기화하지 않습니다.
+한국어 패치만 제거하려면 게임 종료 후 `BepInEx/plugins/CardQuestKoreanPoC/`만 삭제합니다. 전체 제거는 이 통합판만 설치했음을 확인한 경우에만 `INSTALL_KO.md`의 목록을 따릅니다. 순정 게임·세이브·게임 설정은 삭제하거나 초기화하지 않습니다.
 
 ## 알려진 제한 사항·제보
 
