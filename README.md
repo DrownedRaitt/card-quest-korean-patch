@@ -1,4 +1,4 @@
-# Card Quest 한국어 패치 v1.0.0
+# Card Quest 한국어 패치 v1.0.1
 
 Card Quest의 메뉴, 카드, 장비, 상태 효과, 훈련 대사, 스토리 등 주요 텍스트를 한국어로 번역하는 **비공식 팬 패치**입니다. 개발사·배급사의 공식 번역이 아닙니다.
 
@@ -6,16 +6,26 @@ Card Quest의 메뉴, 카드, 장비, 상태 효과, 훈련 대사, 스토리 �
 
 - Windows x64 / Steam, App ID **493080**
 - 확인된 게임 버전 **1.03j**, Steam Build **20329684**
-- 한국어 패치 **v1.0.0**, 번역 **3,518개**
+- 한국어 패치 **v1.0.1**, 번역 **3,518개**
 - BepInEx **5.4.23.5 Windows x64**, SUIT Regular/Bold 포함
 
 ## 주요 특징과 검증 범위
 
 카드·장비·전투 상태와 다양한 메뉴·호버·스토리 UI에 한국어를 적용합니다. 번역 문맥과 용어를 점검하고 반복 선택 시 영어 전환·카드 미리보기 깜박임 등을 개선했습니다. 한글 폰트는 게임에서 사용하며 별도 Windows 폰트 설치는 필요하지 않습니다.
 
+v1.0.1은 초기화 성능과 안정성을 개선하는 유지보수 업데이트입니다.
+
+- 반복적인 카드·장비 이름 메타데이터 검색 최적화
+- Dynamic UI 타입 검색 최적화
+- 검증된 게임 타입 6종·18개 조회 위치의 직접 어셈블리 조회 적용
+- 메인 메뉴의 AssociatedPassive 반복 경고 수정
+- 번역 3,518개 및 기존 번역 TSV·SUIT 폰트 유지
+
+자동 회귀 검증과 메인 메뉴 실게임 점검을 통과했지만 **전체 콘텐츠 실게임 검증은 미완료**입니다.
+
 ## 다운로드·설치
 
-공개 후 [Releases](https://github.com/DrownedRaitt/card-quest-korean-patch/releases)에서 `CardQuest-Korean-Patch-v1.0.0.zip`을 받습니다. `SHA256SUMS.txt`로 내려받은 파일의 체크섬을 확인할 수 있습니다.
+[v1.0.1 릴리스](https://github.com/DrownedRaitt/card-quest-korean-patch/releases/tag/v1.0.1)에서 `CardQuest-Korean-Patch-v1.0.1.zip`을 받습니다. `SHA256SUMS.txt`로 내려받은 파일의 체크섬을 확인할 수 있습니다.
 
 1. 게임을 종료합니다.
 2. Steam 라이브러리 → Card Quest 우클릭 → **관리 → 로컬 파일 탐색**.
@@ -34,7 +44,7 @@ Steam에서 Card Quest를 우클릭하고 관리 → 로컬 파일 탐색을 선
 BepInEx/plugins/ 폴더 안의 기존 CardQuestKoreanPoC 폴더를 삭제합니다.
 새 한글패치 ZIP 안의 BepInEx/plugins/CardQuestKoreanPoC 폴더를 같은 위치에 복사합니다.
 게임을 실행합니다.
-기존 RC2 사용자는 BepInEx를 다시 설치할 필요가 없습니다.
+기존 v1.0.0·RC2 사용자는 BepInEx·Doorstop·SUIT 구성이 동일하므로 전체 재설치가 필요하지 않습니다. 다른 모드와 개인 파일은 보존하세요.
 
 방법 2. 게임을 완전히 재설치
 
